@@ -73,20 +73,6 @@
           <version>7.0.0.jre8</version>
       </dependency>
 
-      <!--<dependency>-->
-          <!--<groupId>com.oracle</groupId>-->
-          <!--<artifactId>ojdbc14</artifactId>-->
-          <!--<version>9.0.2.0.0</version>-->
-      <!--</dependency>-->
-
-      <dependency>
-          <groupId>com.oracle</groupId>
-          <artifactId>ojdbc</artifactId>
-          <version>6</version>
-          <scope>system</scope>
-          <systemPath>${basedir}/lib/ojdbc6-11.2.0.3.jar</systemPath> <!-- must match file name -->
-      </dependency>
-
       <dependency>
           <groupId>args4j</groupId>
           <artifactId>args4j</artifactId>
